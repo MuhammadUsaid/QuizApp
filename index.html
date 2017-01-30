@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1 id="first-heading">Quiz App</h1><span>Highscore: </span><span id="hi-score"></span></header>
+    <img src="amir.jpg" class="hide" id="image" alt="Aise NHI Chale Ga"/>
+    <div id="container">
+        
+        <p class="hide" id="timePara">Time Left: <span id="time"></span></p>
+        <p id="question"></p>
+        <div id="options"></div>
+        <button onClick="start()" onmouseover="mustSelect()" id="button" class="button-start">Start Quiz</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
