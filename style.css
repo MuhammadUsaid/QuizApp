@@ -51,3 +51,6 @@ header{
 #timePara{
     text-align: right;
 }
+img{
+    display: none;
+}
